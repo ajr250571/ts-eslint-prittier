@@ -1,5 +1,9 @@
+<script lang="ts">
+	export let empresa='Nombre Empresa';
+</script>
+
 <nav class="navbar navbar-expand-xl navbar-light bg-light">
-	<a class="navbar-brand" href="/">Navbar</a>
+	<a class="navbar-brand" href="/">{empresa}</a>
 	<button
 		class="navbar-toggler d-lg-none"
 		type="button"
