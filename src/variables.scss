@@ -25,7 +25,7 @@ $gray-900: #212529 !default;
 $black: #000 !default;
 
 // scss-docs-start theme-color-variables
-$primary: $blue !default;
+$primary: $teal;
 $secondary: $gray-600 !default;
 $success: $green !default;
 $info: $cyan !default;
@@ -35,12 +35,12 @@ $light: $gray-100 !default;
 $dark: $gray-900 !default;
 
 $grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px
 );
 
 @import 'bootstrap/scss/functions';

@@ -1,5 +1,7 @@
 <script lang="ts">
 	import '../app.scss';
+	import Contactos from './contactos.svelte';
+	import Header from './header.svelte';
 	import Navbar from './Navbar.svelte';
 
 	type Config = {
@@ -13,10 +15,8 @@
 </script>
 
 <div class="container">
-	<header>
-		<h1>Header</h1>
-	</header>
-	<Navbar empresa={config.empresa} />
+	<Header {...config} />
+	<Navbar />
 	<main>
 		<slot />
 	</main>
@@ -26,10 +26,6 @@
 </div>
 
 <style lang="scss">
-	header {
-		padding: 10px;
-		background-color: bisque;
-	}
 	main {
 		background-color: bisque;
 		padding: 10px;
